@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/console-log",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Output a message to the debugger console.",
   "license": "Apache-2.0",
   "author": {
@@ -42,7 +42,7 @@
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
-    "tap-min": "2.x.x"
+    "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
   },
   "engines": {
     "node": ">=0.10.0",
