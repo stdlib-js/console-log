@@ -41,6 +41,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import log from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/console-log/tags). For example,
+
+```javascript
 import log from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log@v0.0.1-deno/mod.js';
 ```
 
@@ -91,7 +96,7 @@ log( 'Hello, %s!', 'World' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import log from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log@v0.0.1-deno/mod.js';
+import log from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log@deno/mod.js';
 
 log( 'Hello, World!' );
 log( 'Hello, %s!', 'World' );
