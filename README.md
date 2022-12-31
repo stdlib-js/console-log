@@ -41,7 +41,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import log from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log@esm/index.mjs';
+import log from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log@v0.0.1-esm/index.mjs';
 ```
 
 #### log( \[data]\[,..args] )
@@ -96,7 +96,7 @@ log( 'Hello, %s!', 'World' );
 <body>
 <script type="module">
 
-import log from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log@esm/index.mjs';
+import log from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log@v0.0.1-esm/index.mjs';
 
 log( 'Hello, World!' );
 log( 'Hello, %s!', 'World' );
