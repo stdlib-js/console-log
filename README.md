@@ -41,6 +41,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import log from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/console-log/tags). For example,
+
+```javascript
 import log from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log@v0.0.1-esm/index.mjs';
 ```
 
@@ -96,7 +101,7 @@ log( 'Hello, %s!', 'World' );
 <body>
 <script type="module">
 
-import log from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log@v0.0.1-esm/index.mjs';
+import log from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log@esm/index.mjs';
 
 log( 'Hello, World!' );
 log( 'Hello, %s!', 'World' );
