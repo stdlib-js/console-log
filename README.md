@@ -84,7 +84,7 @@ log( 'Hello, %s!', 'World' );
 
 ## Notes
 
--   In general, prefer formatting with [`@stdlib/string/format`][@stdlib/string/format], as string substitution support is not consistent across JavaScript environments.
+-   In general, prefer formatting with [`@stdlib/string-format`][@stdlib/string/format], as string substitution support is not consistent across JavaScript environments.
 
     ```javascript
     var format = require( '@stdlib/string-format' );
