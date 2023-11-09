@@ -221,7 +221,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/console-log/main/LICENSE
 
-[@stdlib/string/format]: https://github.com/stdlib-js/stdlib
+[@stdlib/string/format]: https://github.com/stdlib-js/string-format
 
 </section>
 
