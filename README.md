@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import log from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log@deno/mod.js';
+import log from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log@v0.2.1-deno/mod.js';
 ```
 
 #### log( \[data]\[,..args] )
@@ -102,7 +102,7 @@ log( 'Hello, %s!', 'World' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import log from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log@deno/mod.js';
+import log from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log@v0.2.1-deno/mod.js';
 
 log( 'Hello, World!' );
 log( 'Hello, %s!', 'World' );
