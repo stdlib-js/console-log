@@ -73,7 +73,7 @@ To view installation and usage instructions specific to each branch build, be su
 var log = require( '@stdlib/console-log' );
 ```
 
-#### log( \[data]\[,..args] )
+#### log( \[data]\[,...args] )
 
 Outputs a message to the debugger console.
 
